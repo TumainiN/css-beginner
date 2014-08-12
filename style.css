@@ -114,3 +114,15 @@ p { color: blue }
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#contact * {
+    display: block;
+}
+
+#genus_examples > li { border: 1px solid red }
+h1 + p { font-weight: bold }
