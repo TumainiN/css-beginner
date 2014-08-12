@@ -67,3 +67,21 @@ p { color: blue }
 #content {
     margin: 0 200px; /* setting top and bottom margin to 0 and right and left margin to 200px */
 }
+
+#navigation {
+    float: left;
+    width: 200px;
+}
+
+#navigation2 {
+    float: right;
+    width: 200px;
+}
+
+#content {
+    margin: 0 200px;
+}
+
+#footer {
+    clear: both;
+}
