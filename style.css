@@ -50,28 +50,38 @@ body {
 div p { color: red }
 p { color: blue }
 
-#navigation a {
-    display: block;
-    padding: 20px 10px;
-}
-blockquote:before {
-    content: open-quote;
-}
-
-blockquote:after {
-    content: close-quote;
+#navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
 }
 
-li:before {
-    content: "POW! ";
+#navigation2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
 }
 
-p:before {
-    content: url(images/jam.jpg);
+#content {
+    margin: 0 200px; /* setting top and bottom margin to 0 and right and left margin to 200px */
 }
 
-li:before {
-    content: "POW! ";
-    background: red;
-    color: #fc0;
+#navigation {
+    float: left;
+    width: 200px;
+}
+
+#navigation2 {
+    float: right;
+    width: 200px;
+}
+
+#content {
+    margin: 0 200px;
+}
+
+#footer {
+    clear: both;
 }
