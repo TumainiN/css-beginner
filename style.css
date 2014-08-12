@@ -126,3 +126,11 @@ p { color: blue }
 
 #genus_examples > li { border: 1px solid red }
 h1 + p { font-weight: bold }
+
+h1 {
+    padding: 50px;
+    background-image: url(snazzy.jpg);
+    color: rgba(0,0,0,0.8);
+}
+#smut { color: hsl(36, 100%, 50%) }
+#rabbit { background: hsla(0, 75%, 75%, 0.5) }
