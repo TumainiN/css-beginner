@@ -125,3 +125,4 @@ p { color: blue }
 }
 
 #genus_examples > li { border: 1px solid red }
+h1 + p { font-weight: bold }
