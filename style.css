@@ -54,3 +54,24 @@ p { color: blue }
     display: block;
     padding: 20px 10px;
 }
+blockquote:before {
+    content: open-quote;
+}
+
+blockquote:after {
+    content: close-quote;
+}
+
+li:before {
+    content: "POW! ";
+}
+
+p:before {
+    content: url(images/jam.jpg);
+}
+
+li:before {
+    content: "POW! ";
+    background: red;
+    color: #fc0;
+}
