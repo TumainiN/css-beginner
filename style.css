@@ -154,3 +154,10 @@ p { font-family: "font of all knowledge", arial, sans-serif; }
     font-weight: 400;
     font-style: normal;
 }
+
+input[type=text] { width: 200px; }
+input[type=text][disabled] { border: 1px solid #ccc }
+a[href^=http] {
+    padding-right: 10px;
+    background: url(arrow.png) right no-repeat;
+}
