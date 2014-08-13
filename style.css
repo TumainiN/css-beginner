@@ -113,6 +113,17 @@ p { color: blue }
     border-radius: 50px/100px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+
+    @media print {
+    body {
+        font-size: 10pt;
+        font-family: times, serif;
+    }
+
+    #navigation {
+        display: none;
+    }
+}
 }
 
 * {
@@ -134,3 +145,12 @@ h1 {
 }
 #smut { color: hsl(36, 100%, 50%) }
 #rabbit { background: hsla(0, 75%, 75%, 0.5) }
+
+p { font-family: "font of all knowledge", arial, sans-serif; }
+
+@font-face {
+    font-family: "font of all knowledge";
+    src: local("font of all knowledge"), local(fontofallknowledge), url(fontofallknowledge.woff);
+    font-weight: 400;
+    font-style: normal;
+}
