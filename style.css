@@ -190,6 +190,6 @@ background: url(bg.png), url(bullet.png) 0 50% no-repeat, url(arrow.png) right n
 #top{background: radial-gradient(at top left, yellow, green);
 background: radial-gradient(circle closest-side, yellow, green);}
 body {
-background: linear-gradient(135deg, hsl(36,100%,50%) 10%, hsl(72,100%,50%) 60%, white 90%);
+background: repeating-radial-gradient(#8b2, #8b2 10px, #e90 10px, #e90 20px);
 
 }
