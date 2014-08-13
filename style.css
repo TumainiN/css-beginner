@@ -171,3 +171,12 @@ a:link {
 a:hover {
     color: hsl(36,100%,50%);
 }
+
+background: url(bg.png), url(bullet.png) 0 50% no-repeat, url(arrow.png) right no-repeat;
+#burrito {
+    width: 400px;
+    height: 200px;
+    border: 10px solid rgba(0,255,0,.5);
+    padding: 20px;
+    background: url(chilli.png) 0 0 no-repeat;
+}
